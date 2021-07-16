@@ -232,7 +232,7 @@ public class BytecodeDecompilerView {
         leftMainPanel.add(classesPanel);
 
         srcBin = new JTabbedPane();
-        rightMainPanel.setName("source buffer");
+        rightMainPanel.setName("Source buffer");
         rightMainPanel.add(bytecodeScrollPane);
         rightMainPanel.add(searchCodeField, BorderLayout.NORTH);
         rightBin.setName("Binary buffer");
